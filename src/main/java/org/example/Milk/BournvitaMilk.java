@@ -2,7 +2,7 @@ package org.example.Milk;
 
 import org.example.Ingredient.TotalIngredient;
 
-class BournvitaMilk extends TotalIngredient implements Milk {
+public class BournvitaMilk extends TotalIngredient implements Milk {
 
     @Override
     public void makeMilk() {

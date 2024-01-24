@@ -1,6 +1,6 @@
 package org.example.Ingredient;
 
-class ChangeQuantity {
+public class ChangeQuantity {
 
     public void reduceQuantity(String IngredientName, double quantity) {
         if (IngredientName == "tea")

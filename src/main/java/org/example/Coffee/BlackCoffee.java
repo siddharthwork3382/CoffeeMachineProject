@@ -2,7 +2,7 @@ package org.example.Coffee;
 
 import org.example.Ingredient.TotalIngredient;
 
-class BlackCoffee extends TotalIngredient implements Coffee {
+public class BlackCoffee extends TotalIngredient implements Coffee {
 
     @Override
     public void makeCoffee() {
